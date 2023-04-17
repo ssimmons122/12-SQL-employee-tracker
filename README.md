@@ -5,7 +5,7 @@
 ## Installation
 
 ## Visuals and Usage
-* Heroku link: 
+Video link: 
 <br>
 screenshot(s)
 
