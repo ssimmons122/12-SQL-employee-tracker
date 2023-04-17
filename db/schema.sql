@@ -15,7 +15,8 @@ CREATE TABLE position (
     salary DECIMAL, 
     department_id INT NOT NULL,
     PRIMARY KEY (id),
-    --FOREIGN KEY (department_id) REFERENCES department-- dbl check 
+    FOREIGN KEY (department_id) REFERENCES department
+);
 
 CREATE TABLE employee (
     id INT NOT NULL auto_increment primary,
@@ -26,5 +27,5 @@ CREATE TABLE employee (
     manager_id INT, 
     is_manager BOOLEAN,
     PRIMARY KEY (id),
-    --foreign key again? 
-)
+    --FOREIGN KEY (department_id) REFERENCES department -- merr look here << 
+);
