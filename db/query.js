@@ -1,4 +1,4 @@
-const cTable = require('console.table');
+//const cTable = require('console.table'); 
 const mysql = require('mysql2'); // per instructions
 
 const connection = mysql.createConnection({
@@ -10,5 +10,7 @@ const connection = mysql.createConnection({
 }); 
 
 console.clear();
-console.log('What information are we looking for today?');
+console.log('Connection established');
 //can this be done elsewhere? 
+
+module.exports = query;
