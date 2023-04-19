@@ -1,5 +1,5 @@
 const cTable = require('console.table'); //per instructions
-//const mysql = require('mysql2');
+const mysql = require('mysql2');
 const inquirer = require('inquirer');
 const connection = require('./db/query.js');
 

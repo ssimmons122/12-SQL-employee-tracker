@@ -15,7 +15,7 @@ CREATE TABLE position (
     salary DECIMAL, 
     department_id INT NOT NULL,
     PRIMARY KEY (id),
-    FOREIGN KEY (department_id) REFERENCES department
+    FOREIGN KEY (department_id) REFERENCES department(id)
 );
 
 CREATE TABLE employee (
@@ -27,5 +27,7 @@ CREATE TABLE employee (
     manager_id INT, 
     is_manager BOOLEAN,
     PRIMARY KEY (id),
-    --FOREIGN KEY (department_id) REFERENCES department -- merr look here << 
+    FOREIGN KEY (department_id) REFERENCES department(id),
+    FOREIGN KEY (manager_id) REFERENCES manager(id),
+    FOREIGN KEY (position_id) REFERENCES position(id)
 );

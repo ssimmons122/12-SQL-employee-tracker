@@ -1,7 +1,7 @@
 //const cTable = require('console.table'); 
 const mysql = require('mysql2'); // per instructions
 
-const connection = mysql.createConnection({
+const connect = mysql.createConnection({
     host: 'localhost',
     port: 3306,
     user: 'root',
@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
 }); 
 
 console.clear();
-console.log('Connection established');
+console.log('Connected to the employee database.');
 //can this be done elsewhere? 
 
-module.exports = query;
+module.exports = connect;
