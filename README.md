@@ -14,7 +14,8 @@ Run 'npm start' after installing dependencies to start the app.  Use mouse or ar
 ## Visuals and Usage
 Video link: 
 <br>
-Screenshot(s):
+Screenshot(s):<br>
+![image](https://user-images.githubusercontent.com/121777930/232960472-cdc61639-b015-40da-b799-6924667f8577.png)
 
 ## Contributors and Acknowledgements
-
+Thanks to ChatGPT for explaining things to me like I'm 5. 
