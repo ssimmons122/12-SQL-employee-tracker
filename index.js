@@ -65,3 +65,7 @@ function initList () {
         }
     })
 };
+
+const queryEmpls = 'SELECT * FROM employee;';
+const queryPosition = 'SELECT * FROM position;';
+const queryDepts = 'SELECT * FROM department;';
